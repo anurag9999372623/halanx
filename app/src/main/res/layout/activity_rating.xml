@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_centerInParent="true"
                 android:id="@+id/tvhere"
-                android:text="YOUR TEXT HERE"
+                android:text="YOUR rating HERE"
                 android:textSize="25sp"
                 android:layout_toRightOf="@+id/imv"
                 android:layout_below="@+id/imv"/>

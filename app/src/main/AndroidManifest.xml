@@ -62,6 +62,8 @@
         <activity
             android:name=".popup_feedback"
             android:theme="@style/AppTheme.mytheme" />
+        <activity android:name=".account_fragment"
+            android:theme="@style/AppTheme.mytheme2"/>
         <activity
             android:name=".MapsActivity2"
             android:label="@string/title_activity_maps2"></activity>

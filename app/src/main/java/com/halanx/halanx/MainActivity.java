@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button but1,but2;
+    Button but1,but2,but3;
     public void init()
     {
         but1 = (Button) findViewById(R.id.btnsignin);
@@ -35,10 +35,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        but3= (Button)findViewById(R.id.btnaccount);
         init();
         init2();
     }

@@ -29,7 +29,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         but1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                but1.animate();
                 Intent toy = new Intent(MapsActivity.this, rating.class);
                 startActivity(toy);
 
